@@ -24,7 +24,6 @@ function creatElementsMarkup() {
 }
 
 ref.gallery.insertAdjacentHTML("beforeend", galleryMarkup);
-
 ref.gallery.addEventListener('click', onImage)
 
 function onImage(e) {
